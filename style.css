@@ -1,0 +1,1249 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-icons {
+    background-color: #14133b;
+    height: 3.5rem;
+    width: 100%;
+}
+
+.start-icons {
+    float: left;
+    margin-left: 7rem;
+}
+
+header a {
+    color: #fff;
+}
+
+header a:hover {
+    transition: all 0.5s;
+    color: rgb(65, 65, 197);
+}
+
+.nav-icons a {
+    text-decoration: none;
+}
+
+.start-login {
+    float: right;
+    margin-right: 8rem;
+    font-size: 0.9rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.fa-user {
+    font-size: 1rem;
+}
+
+.navbar {
+    background-color: #fff;
+    height: 5.3rem;
+}
+
+.navbar-nav a {
+    color: #00000098;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-left: 1rem;
+    position: relative;
+}
+.navbar-nav a::after{
+    content: "";
+    position: absolute;
+    background-color: #e4273a;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 0px;
+    transition: all 0.4s;
+}
+.navbar-nav a:hover::after{
+    width: 100%;
+}
+
+.navbar-brand {
+    float: left;
+    margin-left: 6.3rem;
+}
+
+.navbar-nav {
+    margin-left: 31rem;
+}
+
+
+#nav.fixed {
+    position: fixed;
+    box-shadow: 5px 5px 19px 0px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+#nav {
+    top: 0;
+    width: 100%;
+}
+
+.side-icon {
+    position: fixed;
+    top: 552px;
+    right: 5px;
+}
+
+.hero-bg-img {
+    background-image: url('top-main.jpg');
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.hero-bg-img button {
+    background: #f14d5d;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 18px 30px;
+    font-family: 'Roboto';
+    border: none;
+    border-radius: 0.4rem;
+    outline: none;
+}
+
+.hero-bg-img button:hover {
+    background-color: #015ABD;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.hero-bg-img .btn2 {
+    background: #ffffff;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 17px 30px;
+    font-family: 'Roboto';
+}
+
+.hero-bg-img .btn2:hover {
+    background-color: #f14d5d;
+    transition: all 0.2s;
+}
+
+.hero-img-para1 {
+    padding-top: 10.25rem;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 1.3rem;
+}
+
+.hero-img-h1 {
+    font-size: 74px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    margin-bottom: 1.6rem;
+    margin-left: 21rem;
+}
+
+.hero-img-para2 {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 3rem;
+}
+
+.flex-cards {
+    height: 32rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-item {
+    height: 22rem;
+    width: 16.5rem;
+    border: 1px solid rgba(197, 197, 197, 0.493);
+    border-radius: 0.4rem;
+    text-align: center;
+}
+
+.card-item h2 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #212529;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1.7rem;
+}
+
+.card-item p {
+    padding: 1rem 4rem;
+    font-size: 1rem;
+    color: #878585;
+    line-height: 2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-icon {
+    width: 100%;
+    height: 21%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.card-item:hover {
+    transition: all 0.35s;
+    box-shadow: 1px 1px 30px 13px rgba(204, 204, 204, 0.363);
+}
+
+.side-para-1 {
+    font-size: 0.87rem;
+    font-weight: 500;
+    color: #015ABD;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.side-text h2 {
+    font-size: 2.5rem;
+    line-height: 35px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 16px;
+}
+
+.side-para-2 {
+    color: #878585;
+    font-family: 'Roboto', sans-serif;
+}
+
+.side-buttons a {
+    text-decoration: none;
+    width: 45%;
+    margin: 1rem 0.6em;
+    padding: 1.8rem 1.1rem;
+    color: #212529;
+    box-shadow: -2px 2px 7px -3px rgba(128, 128, 128, 0.555);
+    border-radius: 0.3rem;
+}
+
+.side-buttons a:hover {
+    box-shadow: -2px 2px 7px -3px rgba(187, 187, 187, 0.952);
+    transition: all 0.3s;
+    background-color: rgba(241, 241, 241, 0.418);
+    border-radius: 0.3rem;
+}
+
+.side-buttons a:hover i {
+    color: rgb(223, 19, 19);
+    transition: all 0.3s;
+}
+
+.side-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.side-buttons .fa-react,
+.fa-laptop-code,
+.fa-mobile-screen-button,
+.fa-lightbulb {
+    color: #015ABD;
+}
+
+.side-buttons h5 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.owl-div {
+    background-color: #F3F6FF;
+    text-align: center;
+    height: 720px;
+}
+
+.owl-div p {
+    font-size: 0.87rem;
+    font-weight: 500;
+    color: #015ABD;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 0.05rem;
+}
+
+.owl-div-h2 {
+    font-size: 2.5rem;
+    line-height: 35px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.my-owl {
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3.5rem;
+}
+
+.owl-card {
+    width: 17.5rem;
+    height: 26rem;
+    background-color: #fff;
+}
+
+.fa-star {
+    font-size: 0.9rem;
+    color: rgba(245, 197, 108, 0.849);
+}
+
+.owl-card .owl-card-para-2 {
+    display: block;
+    color: #212529;
+    padding: 0.8rem 0rem 0rem 1rem;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+}
+
+.count {
+    height: 28rem;
+    width: 100%;
+}
+
+.counter {
+    min-width: 30%;
+    height: 14rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    color: #F3F6FF;
+}
+
+.counters {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6rem;
+    flex-wrap: wrap;
+}
+
+.side-icon {
+    background-color: #015ABD;
+}
+
+.side-icon:hover {
+    background-color: #f14d5d;
+    transition: all 0.4s;
+}
+
+.counting-para-1 {
+    font-size: 0.85rem;
+    color: #015ABD;
+    font-weight: 500;
+    padding-top: 10rem;
+}
+
+.counting-head-1 {
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: #212529;
+    line-height: 38px;
+}
+
+.counter-icon {
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-thumbs-up {
+    font-size: 4rem;
+}
+
+.fa-user-friends {
+    font-size: 4rem;
+}
+
+.fa-layer-group {
+    font-size: 4rem;
+}
+
+.counting-head-3 {
+    font-size: 0.94rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rate-para-1 {
+    font-size: 0.85rem;
+    color: #015ABD;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 600;
+}
+
+.rate-area {
+    text-align: center;
+}
+
+.rate-head-1 {
+    font-size: 2.3rem;
+    color: #212529;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 700;
+}
+
+.rate-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 85%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.rate-item-card {
+    border-radius: 0.4rem;
+    border: 1px solid rgba(197, 197, 197, 0.493);
+}
+
+.rated-img-real {
+    height: 12.6rem;
+    width: 12.8rem;
+    border-radius: 50%;
+}
+
+.rated-text-head {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rated-text-para {
+    font-weight: 400;
+    color: #878585;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 1px solid rgba(197, 197, 197, 0.493);
+    padding-bottom: 1rem;
+
+}
+
+.rated-capsules-para {
+    font-size: 0.95rem;
+    color: #878585;
+}
+
+.rate-item-card:hover {
+    box-shadow: -1px 1px 30px 0.5px rgba(204, 204, 204, 0.736);
+    transition: all 0.4s;
+}
+.rate-img{
+    position: relative;
+  }
+  .inst-card-img{
+    position: relative;
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .3s ease;
+  }
+  
+  .rate-img:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  .inst-card-img:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .overlay a{
+    background-color: #e33a4b;
+    color: #fff;
+    padding: 0.3rem 0.5rem;
+    border-radius: 50%;
+  }
+
+.introduction {
+    background-color: rgba(135, 207, 235, 0.108);
+    width: 100%;
+    height: 67rem;
+}
+
+.intro-real-img {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.fa-quote-left {
+    font-size: 5rem;
+    color: #015ABD;
+}
+
+.intro-para {
+    font-size: 1.01rem;
+    word-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 32px;
+}
+
+.intro-top-head {
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.intro-head-1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+.intro-para-1 {
+    color: #878585;
+    font-size: 0.85rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.intro-back {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+/* OFFER SECTION */
+.offer-back {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    height: 22rem;
+    box-shadow: -3px 4px 15px 3px rgba(198, 198, 198, 0.708);
+    margin-bottom: 5rem;
+}
+
+.offer-img {
+    height: 90%;
+    width: 90%;
+
+}
+
+.offer-para {
+    font-size: 0.87rem;
+    font-weight: 500;
+    color: #015ABD;
+    font-family: 'Roboto', sans-serif;
+    margin: 5rem 0rem 1rem 5rem;
+}
+
+.offer-head {
+    font-size: 2rem;
+    color: #212529;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 700;
+    margin: 0rem 5rem;
+}
+
+.offer-btn {
+    margin-left: 5rem;
+    background-color: #f14d5d;
+    color: #fff;
+    border: none;
+    margin-top: 1rem;
+    padding: 0.9rem 1.5rem;
+    border-radius: 0.4rem;
+    font-weight: bold;
+    outline: none;
+}
+
+.offer-btn:hover {
+    background-color: #015ABD;
+    transition: all 0.4s;
+}
+
+/* OFFER ENDS HERE */
+
+/* FOOTER SECTION */
+footer {
+    background-color: #14133b;
+    color: #ffffffb3;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+footer li {
+    padding-top: 1rem;
+    cursor: pointer;
+}
+
+footer li:hover {
+    color: #f64859;
+    transition: all 0.3s;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul .bold {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.foot-add {
+    margin-left: 8rem;
+}
+
+.foot-list-2 {
+    margin-left: 2.2rem;
+}
+
+.foot-list-1 {
+    margin-left: 1.8rem;
+}
+
+.foot-icons-2 a {
+    color: #bbbbbbf3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    border-left: 0.5px solid #bbbbbbf3;
+    padding: 0rem 0.3rem;
+}
+
+.foot-icons-2 a:hover {
+    color: #034da1;
+    transition: all 0.3s;
+}
+
+.foot-icons i {
+    color: #fff;
+}
+
+.foot-icons i:hover {
+    color: #034da1;
+    transition: all 0.3s;
+}
+
+/* FOOTER ENDS HERE */
+
+/* LOGIN PAGE STARTS HERE */
+
+.logo-body {
+    background-image: url(login-bg.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-box {
+    width: 25%;
+    height: 27rem;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 0.4rem;
+    margin: 3rem auto;
+}
+
+.login-btn {
+    width: 100%;
+    background-color: #1d71d0;
+    border: none;
+    outline: none;
+    color: #F3F6FF;
+    font-weight: bold;
+    border-radius: 0.4rem;
+}
+
+.login-btn:hover {
+    background-color: #034da1;
+    transition: 0.3s;
+}
+
+.login-para a:hover {
+    text-decoration: underline;
+}
+
+.login-para a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* LOGIN PAGE ENDS HERE */
+
+
+/* REGISTER PAGE STARTS HERE */
+
+.register-form-box {
+    width: 30%;
+    height: 37rem;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 0.4rem;
+    margin: 3rem auto;
+}
+
+/* REGISTER PAGE ENDS HERE */
+
+
+/* ABOUT PAGE STARTS HERE */
+
+/* Hero Section Starts Here */
+.first-main-div {
+    background-image: url(about-1.jpg);
+    background-position: center;
+    height: 19rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-hero-img a {
+    text-decoration: none;
+    color: #F3F6FF;
+
+}
+
+.about-anchor-hvr:hover {
+    color: #034da1;
+    transition: color 0.4s;
+}
+
+/* Hero Section Ends Here */
+
+/* Reason Section Starts Here */
+
+.reason-1 {
+    height: 3rem;
+    width: 3.3rem;
+    border-radius: 0.4rem;
+    padding: 0.7rem 1rem;
+}
+
+.about-img-2 {
+    height: 86%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.reason-portion p {
+    color: #878585;
+    font-family: 'Robobto', sans-serif;
+    font-size: 1.05rem;
+}
+
+/* Reason Section Ends Here */
+
+/* Learn Section Starts Here */
+
+.learn {
+    background-color: rgba(135, 207, 235, 0.108);
+    text-align: center;
+    height: 29rem;
+    width: 100%;
+    margin: 5rem 0rem;
+}
+
+.adding {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.adding-card {
+    background-color: #1d71d0;
+    border-radius: 0.4rem;
+    width: 19%;
+    box-shadow: -1px 0.5px 15px 2px rgba(203, 203, 203, 0.923);
+}
+
+.adding-card:hover {
+    box-shadow: -2px 2px 24px 3px rgba(137, 137, 137, 0.708);
+    transition: all 0.4s;
+}
+
+.learn-head-1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #212529;
+}
+
+.learn-para-1 {
+    font-size: 0.95rem;
+    color: #878585;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.adding-text {
+    padding: 0.7rem 3rem 3rem 3rem;
+}
+
+.add-card-2 {
+    background-color: #f14d5d;
+}
+
+.add-card-3 {
+    background-color: #20c997;
+}
+
+.add-card-4 {
+    background-color: #050e3b;
+}
+
+/* Learn Section Ends Here */
+
+/* Instructors Section strats here */
+
+
+.instructors-para-1 {
+    font-size: 1rem;
+    color: #989696;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fa-check {
+    margin-left: -1.9rem;
+    margin-right: 0.5rem;
+    color: #034da1;
+    font-size: 1.2rem;
+}
+
+.inner-para {
+    font-size: 1.25rem;
+    font-family: 'Roboto', sans-serif;
+    color: #212529;
+    font-weight: 500;
+    padding-left: 2rem;
+}
+
+.instruct-card {
+    height: 23.5rem;
+    width: 47%;
+    border-radius: 0.3rem;
+    box-shadow: -3px 4px 15px rgba(227, 226, 226, 0.718);
+}
+
+.inst-card-img {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inst-real-img {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+}
+
+.inst-text-para {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #989696;
+    padding-bottom: 1.5rem;
+    border-bottom: 0.5px solid rgba(204, 203, 203, 0.52);
+}
+
+.insta-card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.insta-card-item span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.instructor-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* Instructor Section Ends Here */
+
+.about-counter {
+    width: 100%;
+    height: 13rem;
+    background-image: url(about-counter-img.jpg);
+    background-size: cover;
+    border-radius: 0.4rem;
+    display: flex;
+    margin-top: 9rem;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 4rem;
+}
+
+/* ABOUT PAGE ENDS HERE */
+
+/* COUESES PAGE STARTS HERE */
+
+.swip-card {
+    height: 30rem;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.swip-img {
+    width: 100%;
+    height: 50%;
+}
+
+.swip-card a {
+    text-decoration: none;
+}
+
+.swip-card a h1 {
+    padding: 0rem 0.6rem;
+    color: #212529;
+}
+
+.swip-capsule {
+    padding: 1.5rem 0.5rem;
+}
+
+.swip-card-icon {
+    padding: 1rem 0.6rem;
+}
+
+.swip-text:hover .swip-card-h1 h1 {
+    color: #015ABD;
+    transition: all 0.3s;
+}
+
+.swip-card:hover .fa-arrow-right-long {
+    transform: rotate(-35deg);
+    transition: all 0.3s;
+    transform-origin: 10px 10px;
+}
+
+#zoomBOut {
+    overflow: hidden;
+}
+
+#zoomBIn {
+    transition: transform ease-out 0.5s;
+}
+
+#zoomBIn:hover {
+    transform: scale(1.1);
+}
+
+
+/* COURSE PAGE ENDS HERE */
+
+.course-detail-span-h {
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #212529;
+}
+
+.course-detail-span-p {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #989696;
+    margin: 0;
+    padding: 0;
+}
+
+/* Accordion Section */
+.accordion {
+    margin-bottom: 13rem;
+}
+
+.vid-btn {
+    border-bottom: 0.5px solid rgba(186, 186, 186, 0.615);
+    margin: 0rem 1.2rem;
+}
+
+/* Accordian Ends Here */
+.life {
+    font-size: 0.75rem;
+
+}
+
+.vid-div {
+    box-shadow: -5px 6px 10px rgba(220, 220, 220, 0.855);
+    margin-top: 4.5rem;
+}
+
+.vid-div a {
+    text-decoration: none;
+    color: rgba(49, 91, 228, 0.896);
+    font-weight: 700;
+    font-size: large;
+    padding-bottom: 2rem;
+    display: block;
+}
+
+.vid-div a:hover {
+    color: #f14d5d;
+    transition: all 0.3s;
+}
+
+.features {
+    width: 100%;
+    height: 29.5rem;
+    border: 1px solid gainsboro;
+    border-radius: 0.4rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.feature-para {
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #989696;
+}
+
+.course-feature-top {
+    padding: 1rem;
+}
+
+.feature-row {
+    border-bottom: 0.5px solid gainsboro;
+}
+
+.blog-para {
+    font-size: 0.85rem;
+    font-family: 'Roboto', sans-serif;
+    color: #989696;
+    font-weight: 500;
+}
+
+.blog-div a {
+    text-decoration: none;
+}
+
+.blog-div a:hover h1 {
+    color: #015ABD;
+    transition: all 0.3s;
+}
+
+.blog-head {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #212529;
+    line-height: 32px;
+    text-decoration: none;
+}
+
+.blog-para-2 {
+    font-size: 0.9rem;
+    color: #989696;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* CONTACT PAGE STARTS HERE */
+.contaxt-box-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+
+}
+
+.contact-box-card {
+    width: 26%;
+    height: 15rem;
+    box-shadow: -4px 4px 10px rgba(220, 220, 220, 0.576);
+    text-align: center;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.contact-box-card:hover {
+    box-shadow: -4px 4px 10px rgba(200, 199, 199, 0.736);
+    transition: all 0.5s;
+}
+
+.contact-box-card:hover .contact-card-icon .fa-map-location-dot {
+    color: rgba(17, 42, 155, 0.835);
+    transition: all 0.4s;
+}
+
+.contact-box-card:hover .contact-card-icon .fa-address-book {
+    color: #1ca47b;
+    transition: all 0.4s;
+}
+
+.contact-box-card:hover .contact-card-icon .fa-clock {
+    color: #e4273a;
+    transition: all 0.4s;
+}
+
+.contact-card-icon {
+    height: 38%;
+    width: 100%;
+}
+
+.contact-card-icon i {
+    font-size: 3rem;
+}
+
+.fa-map-location-dot {
+    color: rgba(22, 55, 200, 0.835);
+}
+
+.fa-address-book {
+    color: #20c997;
+}
+
+.fa-clock {
+    color: #f64859;
+}
+
+.contact-head {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #212529;
+}
+
+.contact-para {
+    font-size: 1rem;
+    color: rgb(159, 158, 158);
+    font-family: 'Roboto', sans-serif;
+}
+
+textarea label {
+    font-size: 3rem;
+}
+
+.contact-form-textarea {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(105, 104, 104);
+    font-size: 1.15rem;
+    padding: 1rem;
+    height: 180px;
+    width: 100%;
+    border: 1px solid rgba(223, 223, 224, 0.944);
+    border-radius: 0.4rem;
+    margin-top: 1rem;
+}
+
+.contact-form-textarea:focus {
+    outline: 1px solid rgba(0, 0, 255, 0.187);
+
+}
+
+.profile-div {
+    width: 100%;
+    height: 38.5rem;
+    margin-bottom: 7rem;
+    box-shadow: -5px 5px 15px gainsboro;
+    border-radius: 0.4rem;
+}
+
+.imgwithtext {
+    background-color: #14133b;
+    border-radius: 0.5rem;
+    width: 100%;
+    height: 27rem;
+    text-align: center;
+    color: #fff;
+}
+
+.profile-img {
+    background-image: url('owl-img-3.webp');
+    width: 75%;
+    background-position: center;
+    height: 17rem;
+    background-size: cover;
+}
+
+.profile-img-head {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.profile-img-para {
+    font-family: 'Roboto', sans-serif;
+}
+
+.fa-graduation-cap {
+    font-size: 1.2rem;
+    color: #e4273a;
+}
+
+.const {
+    background-color: #e4273a;
+    color: #fff;
+    height: 2.6rem;
+    width: 2.6rem;
+    border-radius: 0.4rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+    padding-left: 0.9rem;
+    padding-top: 0.3rem;
+}
+
+.profile-icons {
+    padding-top: 1.8rem;
+    padding-left: 6.5rem;
+}
+
+.profile-icons span {
+    padding-right: 1rem;
+}
+
+.profile-form {
+    background-color: rgba(237, 236, 236, 0.452);
+    border-radius: 0.4rem;
+}

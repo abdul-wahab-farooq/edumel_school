@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook-log in or sign up</title>
+    <link rel="shortcut icon" href="/Images and Videos for CSS CODE/fb-removebg-preview.png" type="image/x-icon">
+    <style>
+        body {
+            background-color: #f0f2f4;
+            padding: 0px;
+            margin: 0px;
+            font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+
+        }
+
+        .container {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            /* border: 2px solid red; */
+            height: 3rem;
+            width: 580px;
+            /* margin-left: -14px; */
+            position: absolute;
+            top: 115px;
+            left: 125px;
+        }
+
+        .fb_logo {
+            width: 321px;
+            padding-top: 61px;
+            margin-bottom: -12px;
+        }
+
+        .text {
+            color: rgb(26, 26, 26);
+            font-size: 28px;
+            font-weight: normal;
+            line-height: 32px;
+            padding-left: 29px;
+            width: 510px;
+        }
+
+        .box1 {
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+            ;
+            border-radius: 10px;
+            height: 350px;
+            width: 397px;
+            background-color: #ffffff;
+            position: absolute;
+            top: 132px;
+            right: 172px;
+        }
+
+        .form {
+            text-align: center;
+            margin-top: 10px;
+
+        }
+
+        .inp {
+            border: 1px solid rgb(219, 216, 216);
+            border-radius: 6px;
+            width: 332px;
+            height: 49px;
+            padding: 0px 16px;
+            margin-top: 6px;
+            font-size: 17px;
+            outline: none;
+            /* color: #2d7af7; */
+        }
+
+        .form a .btn1 {
+            border: none;
+            background-color: #0866ff;
+            font-family: inherit;
+            font-size: 20px;
+            color: #fff;
+            border-radius: 5px;
+            margin-top: 17px;
+            margin-left: -2px;
+            width: 363px;
+            height: 49px;
+            /* padding: 0px 10px; */
+        }
+
+        .link {
+            text-decoration: none;
+            line-height: 50px;
+            color: #0866ff;
+            font-size: 14px;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+
+        .btn2 {
+            border-radius: 6px;
+            border: none;
+            width: 192px;
+            height: 48px;
+            margin-top: 18px;
+            background-color: #42b72a;
+            font-family: inherit;
+            font-size: 17px;
+            color: #fff;
+        }
+
+        hr {
+            margin-top: 4px;
+            width: 360px;
+        }
+
+        .end {
+            position: absolute;
+            font-size: 14px;
+            top: 497px;
+            right: 223px;
+            word-spacing: 0.1px;
+        }
+
+        .form #inp2 {
+            margin-top: 13px;
+        }
+
+        .form a .btn1:hover {
+            background-color: #2d7af7;
+            cursor: pointer;
+        }
+
+        .btn2:hover {
+            background-color: #2b9715;
+            cursor: pointer;
+        }
+
+        .link:hover {
+            text-decoration: underline;
+        }
+
+        .end a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .form .inp:focus {
+            border: 0.5px solid #2d7af7;
+            box-shadow: 0.05px 0.05px 1.7px 0.06px #2d7af7;
+        }
+        @media (max-width:430px){
+            .box1{
+                  margin-right: -350px;
+                  margin-top: 400px;
+
+            }
+            .box{
+                margin-top: -20px;
+                padding-right: 60px;
+                font-size: 12px;
+            }
+            .end{
+                margin-top: 410px;
+                margin-right: -350px;
+            }
+            .text{
+                font-size: 20px;
+            }
+            .fb_logo{
+                width: 250px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="item1">
+            <div><img class="fb_logo" src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="facebook">
+            </div>
+            <div class="text">Facebook helps you connect and share with the people in your life.</div>
+        </div>
+        <div class="box1" id="item2">
+            <form class="form" target="_blank">
+                <input class="inp" type="email" name="my email" placeholder="Email address or phone number"
+                    required><br>
+                <input class="inp" id="inp2" type="password" name="my password" placeholder="Password" required><br>
+                <a href=""><button class="btn1"><b>Log in</b></button></a><br>
+                <a href="" class="link">Forgotten password?</a>
+                <hr>
+                <a href=""><button class="btn2" type="submit"><b>Create new account</b></button></a>
+            </form>
+        </div>
+        <div class="end">
+            <p><a href=""><b>Create a Page</b></a> for a celebrity, brand or business</p>
+        </div>
+    </div>
+</body>
+
+</html>
